@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Gerenciador de URL's</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="principal">Gerenciador de URL's</h1>
+
+        <nav class=menu>
+            <ul>
+                <li>
+                    <a href="#noticias">Noticias</a>
+                </li>
+                <li>
+                    <a href="#ensino">Ensino</a>
+                </li>
+                <li>
+                    <a href="#commerce">e-Commerce</a>
+                </li>
+                <li>
+                    <a href="#outros">Outros</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>Cadastrar URL's</h2> 
+            <form>
+                <label for="nomeURL">Nome:</label>
+                <input id="nomeURL" type="text">
+                <label for="link">Link:</label>
+                <input id="link" type="url" >
+                <label for="categoria">Categoria URL's:</label>
+                <input list="categorias" name="categoria" id="categoria">
+                    <datalist id="categorias">
+                        <option value="Noticias">
+                        <option value="Ensino">
+                        <option value="e-Commerce">
+                        <option value="Outros">
+                    </datalist>
+                <button>CADASTRAR</button>
+            </form>
+
+        <h2>URL's cadastradas</h2>   
+        
+        <h3 id="noticias">Noticias</h3>
+        <p>Lorem Ipsum é simplesmente uma simulação de texto da
+        indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, 
+        quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para 
+        fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, 
+        como também ao salto para a editoração eletrônica, permanecendo essencialmente 
+        inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques 
+        contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado
+         a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>
+        <h3 id="ensino">Ensino</h3>
+        <p>Lorem Ipsum é simplesmente uma simulação de texto da
+            indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, 
+            quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para 
+            fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, 
+            como também ao salto para a editoração eletrônica, permanecendo essencialmente 
+            inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques 
+            contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado
+             a softwares de editoração eletrônica como Aldus PageMaker.
+            </p>
+        <h3 id="commerce">e-Commerce</h3>
+        <p>Lorem Ipsum é simplesmente uma simulação de texto da
+            indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, 
+            quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para 
+            fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, 
+            como também ao salto para a editoração eletrônica, permanecendo essencialmente 
+            inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques 
+            contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado
+             a softwares de editoração eletrônica como Aldus PageMaker.
+            </p>
+        <h3 id="outros">Outros</h3>
